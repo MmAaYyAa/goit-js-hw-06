@@ -38,7 +38,7 @@ createMarkup(images)
 
 
 
-//**************************Option 1**********************************/
+//**************************Option 2**********************************/
 // const list = document.querySelector(".gallery");
 
 // function createMarkup(arr) {

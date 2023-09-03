@@ -7,7 +7,7 @@ const outputEl = document.querySelector("#name-output");
 inputEl.addEventListener("input", handleInput);
 function handleInput(event) {
     if (inputEl.value === "") {
-        outputEl.value = "Anonymous";  
+        outputEl.textContent = "Anonymous";  
     } else {
         outputEl.textContent = inputEl.value.trim();
     }
